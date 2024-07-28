@@ -1,11 +1,42 @@
 {
-  "name": "fe1-library",
+  "name": "vue-typing-effect-component",
   "version": "1.0.0",
-  "description": "Inner Circle 1기 오픈소스 라이브러리",
-  "main": "index.js",
+  "description": "A Vue.js component that provides a typing effect for hangul(Korean).",
+  "main": "dist/vue-typing-effect-component.umd.js",
+  "module": "dist/vue-typing-effect-component.es.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "vite build"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvlpDana/vue-typing-effect-component.git"
+  },
+  "keywords": [
+    "vue",
+    "hangul",
+    "typing",
+    "effect",
+    "component"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dvlpDana/vue-typing-effect-component/issues"
+  },
+  "homepage": "https://github.com/dvlpDana/vue-typing-effect-component#readme",
+  "devDependencies": {
+    "typescript": "^4.1.3",
+    "vue": "^3.0.0",
+    "vite": "^2.0.0",
+    "@vitejs/plugin-vue": "^1.0.0"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "dependencies": {
+    "hangul-js": "^0.2.6"
+  }
 }
